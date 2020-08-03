@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:smaple/book_list_page.dart';
 import 'package:smaple/mainL_model.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -31,7 +33,10 @@ class MyApp extends StatelessWidget {
                           RaisedButton(
                             child: Text('ボタン'),
                             onPressed: (){
-                              model.changeKazuyaText();
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(builder: (context) => BookListPage()),
+                              );
                             },
                           ),
                         ],

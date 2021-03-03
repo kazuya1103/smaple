@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "591267600909",
+    "firebase_url": "https://smaple-app-1ae26.firebaseio.com",
+    "project_id": "smaple-app-1ae26",
+    "storage_bucket": "smaple-app-1ae26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591267600909:android:50086ab4a56a1525c71344",
+        "android_client_info": {
+          "package_name": "com.kazuya.smaple"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591267600909-63gte4eng5frunafklf3m2l80omf574u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGrlJvEmBaeahA4V_XD2aGAkxhB2Xy0t4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591267600909-63gte4eng5frunafklf3m2l80omf574u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "591267600909-6cji7f8qj106urnagcge356dsmapc16b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kazuya.smaple"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
